@@ -1,0 +1,78 @@
+.hero__root {
+  position: relative;
+  margin-top: 10%;
+  .hero__intro {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 15%;
+    margin-top: 20px;
+
+    .hero__intro_p1 {
+      font-weight: 700;
+      font-size: 120px;
+      color: #fff;
+    }
+
+    .intro__span {
+      display: flex;
+      gap: 14px;
+
+      span {
+        color: #fff;
+      }
+      .intro__span_details {
+        display: flex;
+        flex-direction: column;
+        p:first-child {
+          color: #fff;
+        }
+        p:nth-child(2) {
+          color: #888888;
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+
+  .ball__section {
+    position: relative;
+    img:first-child {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    img:nth-child(2) {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -200px;
+      margin-top: -200px;
+    }
+  }
+
+  .roles__section {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    right: 18%;
+    top: 80px;
+    ul {
+      li {
+        list-style: none;
+        color: #fff;
+        margin-top: 22px;
+        font-weight: 400;
+        font-size: 24px;
+      }
+      li:nth-child(2) {
+        margin-left: 10px;
+      }
+      li:nth-child(3) {
+        margin-left: 10px;
+      }
+    }
+  }
+}
