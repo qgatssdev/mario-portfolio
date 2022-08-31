@@ -1,0 +1,13 @@
+.header__root {
+  margin-top: 2%;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22.75px;
+    li {
+      list-style: none;
+      color: #fff;
+    }
+  }
+}
