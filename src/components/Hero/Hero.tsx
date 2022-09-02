@@ -2,7 +2,7 @@ import './Hero.scss';
 
 const Hero = () => {
   return (
-    <div className="hero__root">
+    <section className="hero__root">
       <div className="hero__intro">
         <p className="hero__intro_p1">Hello.</p>
         <div className="intro__span">
@@ -27,7 +27,22 @@ const Hero = () => {
           <li>Product Analysis</li>
         </ul>
       </section>
-    </div>
+      <section className="hero__footer">
+        <div className="hero__footer__scroll">
+          <p>Scroll</p>
+        </div>
+        <div className="hero__footer__links">
+          <img src={require('../../assets/behance (1) 1.svg').default} alt="" />
+          <img src={require('../../assets/in 1.svg').default} alt="" />
+          <img src={require('../../assets/instagram 1.svg').default} alt="" />
+          <img src={require('../../assets/twitter 1.svg').default} alt="" />
+          <div className="hero__footer__links__transform">
+            <img src={require('../../assets/Group 21.svg').default} alt="" />
+            <p>hello@olurotimi.design</p>
+          </div>
+        </div>
+      </section>
+    </section>
   );
 };
 
