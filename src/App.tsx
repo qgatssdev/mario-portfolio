@@ -7,6 +7,7 @@ import Lines from './components/Lines/Lines';
 import Process from './components/Process/Process';
 import Skills from './components/Skills/Skills';
 import ToolBox from './components/ToolBox/ToolBox';
+import Works from './components/Works/Works';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <Lines />
         <About />
+        <Works />
         <Process />
         <Skills />
         <ToolBox />
