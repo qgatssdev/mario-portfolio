@@ -1,0 +1,35 @@
+.section-process {
+  margin-top: 10%;
+  h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #fafafa;
+    text-align: center;
+  }
+  p:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 232.5%;
+    text-align: center;
+    color: #fafafa;
+    margin: 0 15% 0 15%;
+  }
+  p:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 232.5%;
+    text-align: center;
+    color: #fafafa;
+    margin: 5% 15% 0 15%;
+  }
+
+  .lines__diagram {
+    position: relative;
+    margin-top: 5%;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
