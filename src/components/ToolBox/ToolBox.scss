@@ -29,6 +29,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20% 4%;
+      justify-items: center;
     }
   }
   .toolBox__section2 {
