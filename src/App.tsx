@@ -8,6 +8,8 @@ import Process from './components/Process/Process';
 import Skills from './components/Skills/Skills';
 import ToolBox from './components/ToolBox/ToolBox';
 import Works from './components/Works/Works';
+import MediaQuery from 'react-responsive';
+import MobileFooter from './components/Footer/MobileFooter';
 
 function App() {
   return (
@@ -25,7 +27,12 @@ function App() {
         <ToolBox />
       </section>
       <footer>
-        <Footer />
+        <MediaQuery minWidth={992}>
+          <Footer />
+        </MediaQuery>
+        <MediaQuery maxWidth={992}>
+          <MobileFooter />
+        </MediaQuery>
       </footer>
     </div>
   );
