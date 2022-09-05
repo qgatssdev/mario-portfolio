@@ -1,51 +1,79 @@
 .about__root {
   margin-top: 150px;
   .about__UI {
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .about_me__root {
     display: flex;
     align-items: center;
     position: relative;
+    gap: 30px;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 7%;
+    @media (min-width: 0px) and (max-width: 992px) {
+      flex-direction: column;
+      gap: 30px;
+    }
 
     .about_me_root__memoji {
       flex-basis: 40%;
       img:nth-child(2) {
         position: absolute;
         left: 0%;
-        margin-left: 68px;
+        margin-left: 65px;
         margin-top: 60px;
       }
     }
 
     .about_me__details {
       flex-basis: 60%;
+
       h1 {
         font-weight: 700;
         font-size: 60px;
         color: #fafafa;
+        @media (min-width: 0px) and (max-width: 992px) {
+          font-size: 32px;
+          text-align: center;
+          margin-bottom: 7px;
+        }
       }
       .details__spanned {
         display: flex;
         gap: 16px;
+        @media (min-width: 0px) and (max-width: 992px) {
+          flex-direction: column;
+        }
+
+        span {
+          @media (min-width: 0px) and (max-width: 992px) {
+            display: none;
+          }
+        }
         .details__spanned__details {
           display: flex;
           flex-direction: column;
           gap: 8px;
+
           p:first-child {
             font-weight: 400;
             font-size: 16px;
             color: #fafafa;
+            @media (min-width: 0px) and (max-width: 992px) {
+              text-align: center;
+              margin-bottom: 7px;
+            }
           }
           p:nth-child(2) {
             font-weight: 400;
             font-size: 16px;
             color: #888888;
+            @media (min-width: 0px) and (max-width: 992px) {
+              text-align: center;
+              margin-bottom: 7px;
+            }
           }
         }
       }
@@ -58,6 +86,9 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 232.5%;
+        @media (min-width: 0px) and (max-width: 992px) {
+          text-align: center;
+        }
       }
       button {
         background: rgba(18, 18, 18, 0.157);
@@ -69,6 +100,11 @@
         border-radius: 10px;
         margin-top: 42px;
         cursor: pointer;
+        @media (min-width: 0px) and (max-width: 992px) {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
     }
   }

@@ -1,14 +1,29 @@
 import './About.scss';
+import MediaQuery from 'react-responsive';
+
 const About = () => {
   return (
     <section className="about__root">
       <div className="about__UI">
-        <img src={require('../../assets/UX DESIGNER.svg').default} alt="" />
+        <MediaQuery minWidth={250} maxWidth={992}>
+          <img
+            src={require('../../assets/UX DESIGNER_mobile.svg').default}
+            alt=""
+          />
+        </MediaQuery>
+        <MediaQuery minWidth={993}>
+          <img src={require('../../assets/UX DESIGNER.svg').default} alt="" />
+        </MediaQuery>
       </div>
       <section className="about_me__root">
         <div className="about_me_root__memoji">
-          <img src={require('../../assets/Group 1919.svg').default} alt="" />
-          <img src={require('../../assets/Image 1.svg').default} alt="" />
+          <MediaQuery minWidth={250} maxWidth={992}>
+            <img src={require('../../assets/Group 1923.svg').default} alt="" />
+          </MediaQuery>
+          <MediaQuery minWidth={993}>
+            <img src={require('../../assets/Group 1919.svg').default} alt="" />
+            <img src={require('../../assets/Image 1.svg').default} alt="" />
+          </MediaQuery>
         </div>
         <div className="about_me__details">
           <h1>ABOUT ME.</h1>
