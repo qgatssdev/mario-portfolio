@@ -7,3 +7,19 @@
     z-index: -2;
   }
 }
+
+.processLines__Mobile {
+  svg {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    margin-top: -4%;
+    z-index: -2;
+    @media (min-width: 768px) and (max-width: 992px) {
+      left: 50%;
+    }
+    @media (min-width: 417px) and (max-width: 756px) {
+      left: 20%;
+    }
+  }
+}
