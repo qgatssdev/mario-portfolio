@@ -1,5 +1,8 @@
 import './Process.scss';
+import MediaQuery from 'react-responsive';
 import ProcessLines from './ProcessLines';
+import ProcessLinesMobile from './ProcessLinesMobile';
+
 const Process = () => {
   return (
     <section className="section-process">
@@ -23,7 +26,12 @@ const Process = () => {
           }
           alt=""
         />
-        <ProcessLines />
+        <MediaQuery minWidth={250} maxWidth={992}>
+          <ProcessLinesMobile />
+        </MediaQuery>
+        <MediaQuery minWidth={993}>
+          <ProcessLines />
+        </MediaQuery>
       </div>
     </section>
   );
