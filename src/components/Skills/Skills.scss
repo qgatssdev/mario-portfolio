@@ -6,17 +6,30 @@
     font-weight: 700;
     font-size: 60px;
     color: #fafafa;
+    @media (min-width: 0px) and (max-width: 992px) {
+      text-align: center;
+      font-size: 32px;
+    }
   }
   .skills__intro {
     display: flex;
     gap: 20px;
     margin-top: 1.3%;
+    @media (min-width: 0px) and (max-width: 992px) {
+      span {
+        display: none;
+      }
+    }
     p {
       font-weight: 400;
       font-size: 16px;
       line-height: 232.5%;
       color: #fafafa;
       max-width: 600px;
+      @media (min-width: 0px) and (max-width: 992px) {
+        text-align: center;
+        max-width: 100%;
+      }
     }
   }
 
@@ -24,16 +37,22 @@
     display: flex;
     gap: 10%;
     margin-top: 5%;
+    @media (min-width: 0px) and (max-width: 640px) {
+      flex-direction: column;
+    }
 
     .skills__list__display {
       display: flex;
       flex-direction: column;
       margin-left: 2%;
+      margin-bottom: 50px;
+
       h1 {
         font-weight: 700;
         font-size: 24px;
         line-height: 31px;
         color: #fafafa;
+        text-align: center;
       }
       ul {
         li {
@@ -42,6 +61,7 @@
           margin-top: 24px;
           font-weight: 400;
           font-size: 16px;
+          text-align: center;
         }
       }
     }
