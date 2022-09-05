@@ -10,9 +10,8 @@ const ToolBox = () => {
           </span>
           <p>
             These are the preferred tools, amongst many, that I've been working
-            with to <br /> streamline my creative process. I'm always open to
-            learning new <br />
-            methodologies, approaches and strategies to hone my craft.
+            with to streamline my creative process. I'm always open to learning
+            new methodologies, approaches and strategies to hone my craft.
           </p>
         </div>
 
