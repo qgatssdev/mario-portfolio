@@ -10,15 +10,27 @@ import ToolBox from './components/ToolBox/ToolBox';
 import Works from './components/Works/Works';
 import MediaQuery from 'react-responsive';
 import MobileFooter from './components/Footer/MobileFooter';
+import MobileHeader from './components/MobileHeader/MobileHeader';
+import MobileHero from './components/MobileHero/MobileHero';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Header />
+        <MediaQuery minWidth={577}>
+          <Header />
+        </MediaQuery>
+        <MediaQuery minWidth={0} maxWidth={576}>
+          <MobileHeader />
+        </MediaQuery>
       </header>
       <section>
-        <Hero />
+        <MediaQuery minWidth={0} maxWidth={576}>
+          <MobileHero />
+        </MediaQuery>
+        <MediaQuery minWidth={577}>
+          <Hero />
+        </MediaQuery>
         <Lines />
         <About />
         <Works />
