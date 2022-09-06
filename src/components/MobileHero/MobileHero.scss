@@ -1,0 +1,66 @@
+.mobileHero__root {
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 10px;
+  }
+
+  .mobileHero__introduction {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    span {
+      margin-right: 10px;
+    }
+    font-weight: 400;
+    font-size: 16px;
+    color: #fafafa;
+  }
+
+  .mobileHero__introduction__p2 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+
+  .mobileHero__skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #fafafa;
+    }
+  }
+
+  .mobileHero__circle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+  }
+
+  .mobileHero__email {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fafafa;
+    margin-bottom: 50px;
+  }
+  .mobileHero__links {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: center;
+  }
+}
