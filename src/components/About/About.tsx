@@ -5,12 +5,6 @@ const About = () => {
   return (
     <section className="about__root">
       <div className="about__UI">
-        <MediaQuery minWidth={250} maxWidth={992}>
-          <img
-            src={require('../../assets/UX DESIGNER_mobile.svg').default}
-            alt=""
-          />
-        </MediaQuery>
         <MediaQuery minWidth={993}>
           <img src={require('../../assets/UX DESIGNER.svg').default} alt="" />
         </MediaQuery>
