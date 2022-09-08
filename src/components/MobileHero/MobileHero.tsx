@@ -1,3 +1,4 @@
+import MediaQuery from 'react-responsive';
 import './MobileHero.scss';
 const MobileHero = () => {
   return (
@@ -24,6 +25,11 @@ const MobileHero = () => {
           src={require('../../assets/Group 1917_mobile.svg').default}
           alt=""
         />
+        <img
+          src={require('../../assets/Ellipse 3.svg').default}
+          alt=""
+          className="memoji"
+        />
       </div>
       <p className="mobileHero__email">hello@olurotimi.design</p>
       <div className="mobileHero__links">
@@ -31,6 +37,14 @@ const MobileHero = () => {
         <img src={require('../../assets/in 1.svg').default} alt="" />
         <img src={require('../../assets/instagram 1.svg').default} alt="" />
         <img src={require('../../assets/twitter 1.svg').default} alt="" />
+      </div>
+      <div className="UI__des">
+        <MediaQuery minWidth={250} maxWidth={992}>
+          <img
+            src={require('../../assets/UX DESIGNER_mobile.svg').default}
+            alt=""
+          />
+        </MediaQuery>
       </div>
     </div>
   );

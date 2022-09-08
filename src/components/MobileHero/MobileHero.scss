@@ -1,4 +1,5 @@
 .mobileHero__root {
+  margin-bottom: 200px;
   h1 {
     font-size: 64px;
     font-weight: 700;
@@ -47,6 +48,15 @@
     display: flex;
     justify-content: center;
     margin-bottom: 41px;
+    position: relative;
+
+    .memoji {
+      position: absolute;
+      width: 138.52px;
+      height: 138.52px;
+      margin-left: 8px;
+      margin-top: 40px;
+    }
   }
 
   .mobileHero__email {
@@ -62,5 +72,10 @@
     align-items: center;
     gap: 5%;
     justify-content: center;
+  }
+
+  .UI__des {
+    text-align: center;
+    margin-top: 21%;
   }
 }
