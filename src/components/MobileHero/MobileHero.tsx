@@ -8,7 +8,7 @@ const MobileHero = () => {
         <span>
           <img src={require('../../assets/Rectangle 1.svg').default} alt="" />
         </span>
-        I'm Isreal ✌🏾
+        I'm Israel ✌🏾
       </p>
       <p className="mobileHero__introduction__p2">
         {' '}
