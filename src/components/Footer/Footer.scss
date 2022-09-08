@@ -1,3 +1,4 @@
+@use '../../index.scss';
 .footer__root {
   margin: 12% 7% 0 7%;
   .footer__links {
@@ -32,6 +33,7 @@
         line-height: 171.98%;
         color: #fafafa;
         letter-spacing: 0.05em;
+        font-family: index.$spaceGrotesk;
         span {
           margin-left: 80px;
         }

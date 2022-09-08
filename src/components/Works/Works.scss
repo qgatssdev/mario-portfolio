@@ -1,3 +1,4 @@
+@use '../../index.scss';
 .works__root {
   display: flex;
   margin-left: 7%;
@@ -16,6 +17,7 @@
       font-size: 60px;
       line-height: 77px;
       color: #fafafa;
+      font-family: index.$spaceGrotesk;
       @media (min-width: 0px) and (max-width: 992px) {
         text-align: center;
         margin-bottom: 7px;
