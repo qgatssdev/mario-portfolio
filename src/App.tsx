@@ -30,6 +30,7 @@ function App() {
           <MobileHero />
         </MediaQuery>
         <MediaQuery minWidth={992}>
+          x
           <Hero />
         </MediaQuery>
         <MediaQuery minWidth={992}>
