@@ -67,7 +67,7 @@
         li {
           list-style: none;
           font-weight: 400;
-          font-size: 20px;
+          font-size: 18px;
           color: #fafafa;
         }
         li:nth-child(2) {
@@ -84,7 +84,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4%;
+    margin-top: 2%;
+    @media (min-width: 1500px) {
+      margin-top: 7%;
+    }
 
     .hero__footer__links {
       display: flex;

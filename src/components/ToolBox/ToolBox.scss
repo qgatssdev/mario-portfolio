@@ -53,6 +53,12 @@
       @media (min-width: 0px) and (max-width: 992px) {
         grid-template-columns: repeat(3, 1fr);
       }
+      @media (min-width: 0px) and (max-width: 576px) {
+        img {
+          width: 43px;
+          height: 42px;
+        }
+      }
     }
   }
   .toolBox__section2 {
