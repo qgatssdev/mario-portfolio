@@ -12,6 +12,7 @@ import MediaQuery from 'react-responsive';
 import MobileFooter from './components/Footer/MobileFooter';
 import MobileHeader from './components/MobileHeader/MobileHeader';
 import MobileHero from './components/MobileHero/MobileHero';
+import MobileLines from './components/Lines/MobileLines';
 
 function App() {
   return (
@@ -25,13 +26,18 @@ function App() {
         </MediaQuery>
       </header>
       <section>
-        <MediaQuery minWidth={0} maxWidth={576}>
+        <MediaQuery minWidth={0} maxWidth={991}>
           <MobileHero />
         </MediaQuery>
-        <MediaQuery minWidth={577}>
+        <MediaQuery minWidth={992}>
           <Hero />
         </MediaQuery>
-        <Lines />
+        <MediaQuery minWidth={992}>
+          <Lines />
+        </MediaQuery>
+        <MediaQuery minWidth={0} maxWidth={991}>
+          <MobileLines />
+        </MediaQuery>
         <About />
         <Works />
         <Process />
