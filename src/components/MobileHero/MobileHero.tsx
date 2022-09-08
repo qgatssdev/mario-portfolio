@@ -1,5 +1,6 @@
 import MediaQuery from 'react-responsive';
 import './MobileHero.scss';
+
 const MobileHero = () => {
   return (
     <div className="mobileHero__root">
@@ -45,6 +46,14 @@ const MobileHero = () => {
             alt=""
           />
         </MediaQuery>
+      </div>
+      <div className="scroll">
+        <p>
+          Scroll{' '}
+          <span>
+            <img src={require('../../assets/arrow.svg').default} alt="" />
+          </span>
+        </p>
       </div>
     </div>
   );
