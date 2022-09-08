@@ -1,92 +1,81 @@
-.hero__root {
+.hero__section {
+  margin-left: 7%;
+  margin-top: 9%;
+  min-height: 100vh;
   position: relative;
-  margin-top: 10%;
-  .hero__intro {
+
+  .hero__root {
     display: flex;
-    position: absolute;
-    flex-direction: column;
-    z-index: 1;
-    margin-left: 15%;
-    margin-top: 20px;
-    @media (min-width: 992px) and (max-width: 1400px) {
-      margin-left: 3%;
-    }
+    justify-content: space-between;
+    align-items: center;
 
-    .hero__intro_p1 {
-      font-weight: 700;
-      font-size: 120px;
-      color: #fff;
-    }
-
-    .intro__span {
+    .hero__root_1 {
       display: flex;
-      gap: 14px;
-
-      span {
-        color: #fff;
+      flex-direction: column;
+      margin-top: -25%;
+      h1 {
+        font-weight: 700;
+        font-size: 120px;
+        color: #fafafa;
       }
-      .intro__span_details {
+
+      .hero__spanned__root {
+        display: flex;
+        gap: 14px;
+      }
+      .hero__spanned {
         display: flex;
         flex-direction: column;
-        p:first-child {
-          color: #fff;
+        gap: 5px;
+
+        .hero__spanned_p1 {
+          display: flex;
+          font-size: 16px;
+          color: #fafafa;
+          span {
+            margin-right: 10px;
+          }
         }
-        p:nth-child(2) {
+        .hero__spanned_p2 {
+          font-weight: 400;
+          font-size: 16px;
           color: #888888;
-          margin-top: 6px;
         }
       }
     }
-  }
 
-  .ball__section {
-    position: relative;
-    img:first-child {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      z-index: 2;
-      @media (min-width: 1500px) {
-        min-width: 650px;
-      }
-    }
-    img:nth-child(2) {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      margin-left: -200px;
-      margin-top: -200px;
-      @media (min-width: 1500px) {
-        min-width: 700px;
-        margin-left: -345px;
-        // top: 220px;
-        top: 37%;
-      }
-    }
-  }
+    .hero__root_2 {
+      position: relative;
+      margin-left: -10%;
 
-  .roles__section {
-    position: absolute;
-    right: 0;
-    bottom: 70px;
-    right: 18%;
-    top: 80px;
-    @media (min-width: 992px) and (max-width: 1400px) {
-      right: 8%;
+      .desk__memoji {
+        position: absolute;
+        left: 0;
+        margin-left: 40px;
+        margin-top: 75px;
+      }
     }
-    ul {
-      li {
-        list-style: none;
-        color: #fff;
-        margin-top: 22px;
-        font-weight: 400;
-        font-size: 24px;
-      }
-      li:nth-child(2) {
-        margin-left: 10px;
-      }
-      li:nth-child(3) {
-        margin-left: 10px;
+
+    .hero__root_3 {
+      padding-right: 6%;
+      margin-right: 7%;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        li {
+          list-style: none;
+          font-weight: 400;
+          font-size: 20px;
+          color: #fafafa;
+        }
+        li:nth-child(2) {
+          margin-left: 9px;
+        }
+        li:nth-child(3) {
+          margin-left: 9px;
+        }
       }
     }
   }
@@ -95,6 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 4%;
 
     .hero__footer__links {
       display: flex;

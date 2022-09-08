@@ -1,32 +1,40 @@
 import './Hero.scss';
-
-const Hero = () => {
+const Test = () => {
   return (
-    <section className="hero__root">
-      <div className="hero__intro">
-        <p className="hero__intro_p1">Hello.</p>
-        <div className="intro__span">
-          <span>
-            <img src={require('../../assets/Rectangle 1.svg').default} alt="" />
-          </span>
-          <div className="intro__span_details">
-            <p>I'm Israel ✌🏾</p>
-            <p>This is my design portfolio</p>
+    <section className="hero__section">
+      <div className="hero__root">
+        <div className="hero__root_1">
+          <h1>Hello.</h1>
+          <div className="hero__spanned__root">
+            <span>
+              <img
+                src={require('../../assets/Rectangle 1.svg').default}
+                alt=""
+              />
+            </span>
+            <div className="hero__spanned">
+              <p className="hero__spanned_p1">I'm Israel ✌🏾</p>
+              <p className="hero__spanned_p2">This is my design portfolio</p>
+            </div>
           </div>
         </div>
+        <div className="hero__root_2">
+          <img src={require('../../assets/Group 1917.svg').default} alt="" />
+          <img
+            src={require('../../assets/Ellipse 3.svg').default}
+            alt=""
+            className="desk__memoji"
+          />
+        </div>
+        <div className="hero__root_3">
+          <ul>
+            <li>UX Research</li>
+            <li>UX Research</li>
+            <li>UX Research</li>
+            <li>UX Research</li>
+          </ul>
+        </div>
       </div>
-      <section className="ball__section">
-        <img src={require('../../assets/Group 1917.svg').default} alt="" />
-        <img src={require('../../assets/Ellipse 3.svg').default} alt="" />
-      </section>
-      <section className="roles__section">
-        <ul>
-          <li>UX Research</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
-          <li>Product Analysis</li>
-        </ul>
-      </section>
       <section className="hero__footer">
         <div className="hero__footer__scroll">
           <p>Scroll</p>
@@ -46,4 +54,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Test;
