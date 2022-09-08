@@ -4,12 +4,12 @@ const MobileHero = () => {
   return (
     <div className="mobileHero__root">
       <h1>Hello.</h1>
-      <p className="mobileHero__introduction">
+      <div className="mobileHero__introduction">
         <span>
           <img src={require('../../assets/Rectangle 1.svg').default} alt="" />
         </span>
-        I'm Israel ✌🏾
-      </p>
+        <p>I'm Israel ✌🏾</p>
+      </div>
       <p className="mobileHero__introduction__p2">
         {' '}
         This is my design porfolio

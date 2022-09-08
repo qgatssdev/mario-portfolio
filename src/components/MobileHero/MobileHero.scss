@@ -11,14 +11,16 @@
   .mobileHero__introduction {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
     span {
       margin-right: 10px;
-      margin-top: -3px;
     }
-    font-weight: 400;
-    font-size: 16px;
-    color: #fafafa;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #fafafa;
+    }
   }
 
   .mobileHero__introduction__p2 {
