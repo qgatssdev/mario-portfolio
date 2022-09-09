@@ -20,7 +20,7 @@ const Test = () => {
         </div>
         <div className="hero__root_2">
           <img src={require('../../assets/Group 1917.svg').default} alt="" />
-          <div className="test__circle"></div>
+          <div className="middle__circle"></div>
         </div>
         <div className="hero__root_3">
           <ul>
