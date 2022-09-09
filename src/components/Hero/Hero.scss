@@ -51,11 +51,23 @@
       position: relative;
       margin-left: -10%;
 
-      .desk__memoji {
+      .test__circle {
+        width: 240.01px;
+        height: 240.01px;
         position: absolute;
-        left: 0;
-        margin-left: 40px;
-        margin-top: 75px;
+        border-radius: 50%;
+        top: 0;
+        margin-left: 129px;
+        margin-top: 120px;
+        background: linear-gradient(
+          181deg,
+          #ffffff 0%,
+          #061213 98.3%,
+          #061213 98.3%
+        );
+        box-shadow: -0.805138px 46.1263px 92.2667px rgba(51, 51, 51, 0.4395),
+          inset 0.352471px -20.1931px 20.1961px #a8a8a8,
+          inset -0.352471px 20.1931px 20.1961px #ffffff;
       }
     }
 
