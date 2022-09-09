@@ -20,11 +20,7 @@ const Test = () => {
         </div>
         <div className="hero__root_2">
           <img src={require('../../assets/Group 1917.svg').default} alt="" />
-          <img
-            src={require('../../assets/Ellipse 3.svg').default}
-            alt=""
-            className="desk__memoji"
-          />
+          <div className="test__circle"></div>
         </div>
         <div className="hero__root_3">
           <ul>
