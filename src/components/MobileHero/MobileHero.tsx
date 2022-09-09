@@ -26,11 +26,12 @@ const MobileHero = () => {
           src={require('../../assets/Group 1917_mobile.svg').default}
           alt=""
         />
-        <img
+        {/* <img
           src={require('../../assets/Ellipse 3.svg').default}
           alt=""
           className="memoji"
-        />
+        /> */}
+        <div className="mobile__ball"></div>
       </div>
       <p className="mobileHero__email">hello@olurotimi.design</p>
       <div className="mobileHero__links">
