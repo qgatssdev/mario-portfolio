@@ -33,7 +33,7 @@ const MobileHero = () => {
         /> */}
         <div className="mobile__ball"></div>
       </div>
-      <p className="mobileHero__email">hello@olurotimi.design</p>
+      <p className="mobileHero__email">Olurotimi.100@gmail.com</p>
       <div className="mobileHero__links">
         <img src={require('../../assets/behance (1) 1.svg').default} alt="" />
         <img src={require('../../assets/in 1.svg').default} alt="" />

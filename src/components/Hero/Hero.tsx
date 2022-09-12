@@ -42,7 +42,7 @@ const Test = () => {
           <img src={require('../../assets/twitter 1.svg').default} alt="" />
           <div className="hero__footer__links__transform">
             <img src={require('../../assets/Group 21.svg').default} alt="" />
-            <p>hello@olurotimi.design</p>
+            <p>Olurotimi.100@gmail.com</p>
           </div>
         </div>
       </section>

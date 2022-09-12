@@ -4,7 +4,7 @@ const MobileFooter = () => {
     <section className="mobileFooter__root">
       <div className="mobile__logo">
         <img src={require('../../assets/ioIcon 2.svg').default} alt="" />
-        <p>hello@olurotimi.design</p>
+        <p>Olurotimi.100@gmail.com</p>
       </div>
       <div className="mobile__links">
         <img src={require('../../assets/behance (1) 1.svg').default} alt="" />
