@@ -48,7 +48,12 @@ const About = () => {
               <br />
               To learn about my credentials, please check out my resume:
             </p>
-            <button>DOWNLOAD RESUMÉ</button>
+            <button>
+              <a href="../../ISRAEL RESUMÉ.pdf" download>
+                {' '}
+                DOWNLOAD RESUMÉ{' '}
+              </a>
+            </button>
           </div>
         </div>
       </section>

@@ -98,10 +98,13 @@
           inset -1.76px 1.76px 1.76px rgba(255, 255, 255, 0.514);
         width: 184px;
         height: 42px;
-        color: #fafafa;
         border-radius: 10px;
         margin-top: 42px;
         cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #fafafa;
+        }
         @media (min-width: 0px) and (max-width: 992px) {
           display: block;
           margin-left: auto;
