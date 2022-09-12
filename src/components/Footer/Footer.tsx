@@ -5,7 +5,7 @@ const Footer = () => {
       <section className="footer__links">
         <div className="links__1">
           <img src={require('../../assets/ioIcon 2.svg').default} alt="" />
-          <p>hello@olurotimi.design</p>
+          <p>Olurotimi.100@gmail.com</p>
           <div className="links__1__logos">
             <img
               src={require('../../assets/behance (1) 1.svg').default}
