@@ -1,6 +1,6 @@
 import MediaQuery from 'react-responsive';
 import './MobileHero.scss';
-//
+
 const MobileHero = () => {
   return (
     <div className="mobileHero__root">
