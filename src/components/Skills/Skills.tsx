@@ -1,23 +1,13 @@
 import './Skills.scss';
-import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
-    <motion.div
-      whileInView={{ scaleY: 1 }}
-      initial={{ scaleY: 0 }}
-      transition={{
-        delay: 0.5,
-        bounce: 0.5,
-        ease: 'easeInOut',
-        duration: 0.6,
-      }}
-    >
-      <section className="skills__root">
-        <h1 className="skills__root__h1">MY SKILLS.</h1>
-        <div className="skills__intro">
+    <div>
+      <section className='skills__root'>
+        <h1 className='skills__root__h1'>MY SKILLS.</h1>
+        <div className='skills__intro'>
           <span>
-            <img src={require('../../assets/Rectangle 1.svg').default} alt="" />
+            <img src={require('../../assets/Rectangle 1.svg').default} alt='' />
           </span>
           <p>
             These are the main competencies that I developed by working
@@ -25,8 +15,8 @@ const Skills = () => {
             techniques and methods to achieve the best possible outcome.
           </p>
         </div>
-        <div className="skills__list">
-          <div className="skills__list__display">
+        <div className='skills__list'>
+          <div className='skills__list__display'>
             <h1>UX RESEARCH</h1>
             <ul>
               <li>Problem Statement</li>
@@ -36,7 +26,7 @@ const Skills = () => {
               <li>Synthesis</li>
             </ul>
           </div>
-          <div className="skills__list__display">
+          <div className='skills__list__display'>
             <h1>UX Design</h1>
             <ul>
               <li>Design Goal</li>
@@ -46,7 +36,7 @@ const Skills = () => {
               <li>Usability Testing</li>
             </ul>
           </div>
-          <div className="skills__list__display">
+          <div className='skills__list__display'>
             <h1>UI Design</h1>
             <ul>
               <li>Design System</li>
@@ -56,7 +46,7 @@ const Skills = () => {
               <li>Responsive Design</li>
             </ul>
           </div>
-          <div className="skills__list__display">
+          <div className='skills__list__display'>
             <h1>Product Analytics</h1>
             <ul>
               <li>Web Analytics</li>
@@ -68,7 +58,7 @@ const Skills = () => {
           </div>
         </div>
       </section>
-    </motion.div>
+    </div>
   );
 };
 
