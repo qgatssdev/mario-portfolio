@@ -1,4 +1,5 @@
 import './Hero.scss';
+
 const Test = () => {
   return (
     <section className="hero__section">
